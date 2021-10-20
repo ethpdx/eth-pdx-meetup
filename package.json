@@ -1,7 +1,7 @@
 {
   "name": "eth-pdx",
   "version": "1.0.0",
-  "description": "ETH PDX Meetup page",
+  "description": "EthPDX",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ethpdx/eth-pdx-meetup"

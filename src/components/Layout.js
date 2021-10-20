@@ -24,9 +24,9 @@ class Layout extends Component {
     return (
       <>
         <Helmet
-          title="ETH PDX MEETUP"
+          title="EthPDX"
           meta={[
-            { name: 'description', content: 'ETH PDX MEETUP' },
+            { name: 'description', content: 'EthPDX' },
             { name: 'keywords', content: 'site, web' },
           ]}
         >
