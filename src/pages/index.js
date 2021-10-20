@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import EmailForm from '../components/EmailForm';
 import SlideShow from '../components/SlideShow';
+import Nav from '../components/Nav';
 
 var settings = {
   images: [
@@ -17,12 +18,15 @@ var settings = {
 };
 
 const IndexPage = () => (
-  <Layout>
-    <Header />
-    <EmailForm />
-    <Footer />
-    <SlideShow settings={settings} />
-  </Layout>
+  <>
+    <Layout darkText>
+      <Nav />
+      <Header />
+      <EmailForm />
+      <Footer />
+      <SlideShow settings={settings} />
+    </Layout>
+  </>
 );
 
 export default IndexPage;

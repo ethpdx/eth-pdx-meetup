@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export class EmailForm extends Component {
   constructor() {
@@ -19,18 +20,20 @@ export class EmailForm extends Component {
   render() {
     const { message } = this.state;
     return (
+      <>
       <form id="signup-form" onSubmit={this.onSubmit} method="post" action="#">
         <input
           type="email"
           name="email"
           id="email"
-          placeholder="Email Address"
+          placeholder="Email..."
         />
-        <input type="submit" value="Sign Up" />
+        <input type="submit" value="CONNECT" />
         <span className={`${message ? 'visible success' : ''} message`}>
           {message}
         </span>
       </form>
+      </>
     );
   }
 }

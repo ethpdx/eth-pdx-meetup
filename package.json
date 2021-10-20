@@ -1,14 +1,14 @@
 {
-  "name": "gatsby-starter-eventually",
+  "name": "eth-pdx",
   "version": "1.0.0",
-  "description": "Gatsby.js V2 starter template based on Eventually by HTML5 UP",
+  "description": "ETH PDX Meetup page",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-eventually.git"
+    "url": "git+https://github.com/ethpdx/eth-pdx-meetup"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Kevin Davis",
+    "email": "whomst@gmail.com"
   },
   "dependencies": {
     "gatsby": "^2.20.2",
@@ -19,7 +19,8 @@
     "node-sass": "^4.13.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "react-router-dom": "^5.3.0"
   },
   "scripts": {
     "develop": "gatsby develop",
