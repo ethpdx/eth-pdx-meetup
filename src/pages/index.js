@@ -22,7 +22,7 @@ const IndexPage = () => (
     <Layout darkText>
       <Nav />
       <Header />
-      <EmailForm />
+      {/* <EmailForm /> */}
       <Footer />
       <SlideShow settings={settings} />
     </Layout>
